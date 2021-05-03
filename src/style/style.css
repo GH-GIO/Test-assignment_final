@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.tb-container {
+  background: #ececec;
+  font-family: Verdana;
+  padding: 30px 36px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.5);
+}
+
+.tb-container h3 {
+  color: .333;
+}
+
+.tb-container .table {
+  border-spacing: 5px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tb-container .table td {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #E8F1FF;
+}
+
+.tb-container .table tbody {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tb-container .table .tb_active {
+  background-color: #3D7BD9;
+}
+/*# sourceMappingURL=style.css.map */
